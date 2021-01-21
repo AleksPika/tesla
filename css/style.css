@@ -1,15 +1,21 @@
 * {
     box-sizing: border-box;
 }
+html{
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
     color: #000000;
+    overflow-x:hidden;
     margin: 0;
     padding: 0;
 }
 .container-new {
     width: 1440px;
+    padding: 0;
     margin: 0 auto;
 }
 .navbar.navbar-expand-lg.navbar-light {
@@ -672,7 +678,7 @@ body {
         margin: 0 22px 50px;
     }
     .footer__model-text {
-        width: 360px;
+        width: 375px;
         top: 110px;
         left: 0px;
         font-weight: 600;
