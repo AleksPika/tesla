@@ -132,6 +132,9 @@ body {
     .menu_1{
         margin-left: 0;
     }
+    .container-new {
+        width: 1345px;
+    }    
 }
 @media (max-width: 768px) and (min-width: 321px) {
     .container-new {
@@ -429,7 +432,7 @@ body {
 .footer__left {
     color: #fff;
     background: #E51937;
-    width: 320px;
+    width: 440px;
 }
 .footer__left-head h3 {
     margin: 51px 68px 12px 56px;
@@ -551,6 +554,9 @@ body {
         width: 531px;
         left: 189px;
         top: 97px;
+    }
+    .footer__img {
+        width: 1000px;
     }
 }
 @media (max-width: 768px) and (min-width: 321px) {
