@@ -1,0 +1,35 @@
+.navbar-light .navbar-nav .nav-link {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    text-decoration: none;
+    padding-bottom: 6px;
+    border-bottom: 2px transparent solid;
+    transition: 0.2s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link.active {
+    border-bottom: 2px #E51937 solid;
+    color: #E51937;
+}
+.navbar-light .navbar-toggler {
+    color: #E51937;
+    border-color: #E51937;
+}
+.navbar-light .navbar-toggler:active {
+    border-color: transparent;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../img/menu.png);
+}
+@media (max-width: 320px) {
+    .navbar-toggler {
+        padding: 0 2px; 
+    }
+    .navbar-light .navbar-toggler-icon {
+        width: 20px;
+        height: 20px;
+        margin-bottom: 4px;
+    }
+}
